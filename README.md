@@ -30,27 +30,68 @@ IS_SUCCESSFUL—Was the money used effectively
 
 
 
-
-
-
-
-
-
-Optimization:
+#Optimization: Attempt 1
 
 APPLICATION_TYPE cutoff = 500
 
 CLASSIFICATION cutoff = 300
 
-layer1 = 9 
+layer1 = 8
 
-layer2 = 18 
+layer2 = 30
 
-Loss:0.5537382960319519 ,
-Accuracy:  0.7293294668197632
+Loss: ,
+Accuracy:  
 
 A loss value of 55 indicates that the model can be further optimized.
+
 The accuracy percent shows that 72.9% of the model's predicted values align with the true values in the original dataset.
+
+
+
+#Optimization: Attempt 2
+
+APPLICATION_TYPE cutoff = 500
+
+CLASSIFICATION cutoff = 300
+
+layer1 = 12
+
+layer2 = 24
+
+Loss: 
+Accuracy:  
+
+A loss value of 55 indicates that the model can be further optimized.
+
+The accuracy percent shows that 72.9% of the model's predicted values align with the true values in the original dataset.
+
+
+#Optimization: Attempt 3
+
+APPLICATION_TYPE cutoff = 500
+
+CLASSIFICATION cutoff = 300
+
+layer1 = 18
+
+layer2 = 36
+
+Loss: ,
+Accuracy:  
+
+A loss value of 55 indicates that the model can be further optimized.
+
+The accuracy percent shows that 72.9% of the model's predicted values align with the true values in the original dataset.
+
+
+
+
+
+
+
+
+
 
 
 
