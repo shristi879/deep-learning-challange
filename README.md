@@ -32,9 +32,9 @@ IS_SUCCESSFUL—Was the money used effectively
 
 #Optimization: Attempt 1
 
-APPLICATION_TYPE cutoff = 500
+APPLICATION_counts = 500
 
-CLASSIFICATION cutoff = 300
+CLASSIFICATION_counts = 300
 
 layer1 = 8
 
@@ -51,9 +51,9 @@ The accuracy percent shows that 72.9% of the model's predicted values align with
 
 #Optimization: Attempt 2
 
-APPLICATION_TYPE cutoff = 500
+APPLICATION_counts= 500
 
-CLASSIFICATION cutoff = 300
+CLASSIFICATION_counts = 300
 
 layer1 = 12
 
@@ -71,9 +71,9 @@ The accuracy percent shows that 72.7% of the model's predicted values align with
 
 #Optimization: Attempt 3
 
-APPLICATION_TYPE cutoff = 500
+APPLICATION_counts = 500
 
-CLASSIFICATION cutoff = 300
+CLASSIFICATION_counts = 300
 
 layer1 = 18
 
