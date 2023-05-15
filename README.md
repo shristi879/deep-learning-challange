@@ -40,8 +40,8 @@ layer1 = 8
 
 layer2 = 30
 
-Loss: ,
-Accuracy:  
+Loss: 0.5537382960319519,
+Accuracy:  0.7293294668197632
 
 A loss value of 55 indicates that the model can be further optimized.
 
@@ -59,12 +59,14 @@ layer1 = 12
 
 layer2 = 24
 
-Loss: 
-Accuracy:  
+Loss:  0.553446888923645
+Accuracy:  0.7279300093650818
 
 A loss value of 55 indicates that the model can be further optimized.
 
-The accuracy percent shows that 72.9% of the model's predicted values align with the true values in the original dataset.
+The accuracy percent shows that 72.7% of the model's predicted values align with the true values in the original dataset.
+
+
 
 
 #Optimization: Attempt 3
@@ -77,14 +79,10 @@ layer1 = 18
 
 layer2 = 36
 
-Loss: ,
-Accuracy:  
+Loss: 0.5551065802574158
+Accuracy:  0.7290962338447571
 
-A loss value of 55 indicates that the model can be further optimized.
-
-The accuracy percent shows that 72.9% of the model's predicted values align with the true values in the original dataset.
-
-
+In the three attempts,the model was unable to achieve a target predictive accuracy higher than 72.9%.
 
 
 
